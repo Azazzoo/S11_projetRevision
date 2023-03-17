@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Acceuil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer ></script>
+    <script src="JS.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="page2.html" method="post">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container1">
+            <a class="navbar-brand" href="#">
+                <img src="Netflix-Logo-500x281.png" alt="" height="100">
+            </a>
+        </div>
+    </nav>
+    <div class="container2 col">
+        <div class="container col-lg-6 ">
+            <h1 class="row justify-content-center">Inscrivez-Vous</h1>
+            <label class="row" for="nom" >Nom</label>
+            <input class="row m-auto" type="text" name="nom" id="nom" placeholder="Prénom Nom" required>
+            <label class="row" for="age" >Age</label>
+            <input class="row m-auto" type="number" name="age" id="age" required>
+            <label class="row" for="email" >Courriel</label>
+            <input class="row m-auto" type="email" name="email" id="email" placeholder="courriel@domaine.com">
+            <label class="row" for="password1" >Mot de passe</label>
+            <input class="row m-auto" type="password" name="password1" id="password1"  placeholder="8 Caractères min">
+
+            <p class="erreur visible" id="erreur">Les mots de passe ne sont pas identique.</p>
+            <div class="row2 justify-content-center">
+                <input class="boutton col-5" id="submit" type="submit" value="Soumettre" disabled >
+                <input class="boutton col-5" type="reset" value="Annuler">
+            </div>
+        </div>
+</form>
+<form action="http://www.netflix.com" method="post">
+        <div class="container col-lg-6 boite3 ">
+            <h1 class="row justify-content-center">Connectez-Vous</h1>
+            <label class="row" for="nom2" >Nom</label>
+            <input class="row m-auto" type="text" name="nom" id="nom2" placeholder="Prénom Nom" required>
+            <p class="erreur visible" id="erreurnom">Ce nom ne corespond a aucun memebre.</p>
+            <label class="row" for="email2" >Courriel</label>
+            <input class="row m-auto" type="email" name="email" id="email2" placeholder="courriel@domaine.com">
+            <p class="erreur visible" id="erreuremail">Les mots de passe ne sont pas identique.</p>
+            <label class="row" for="password2" >Mot de passe</label>
+            <input class="row m-auto" type="password" name="password" id="password2"  placeholder="8 Caractères min">
+            <p class="erreur visible" id="erreurmdp">Le mot de passe ou l'adresse couriel est erroné</p>
+            <div class="row2 justify-content-center">
+                <input class="boutton col-5" type="submit" id="submit2" value="Connection">
+                <input class="boutton col-5" type="reset" value="Annuler">
+            </div>
+
+
+        </div>
+    </div>
+</form>
+</body>
+</html>

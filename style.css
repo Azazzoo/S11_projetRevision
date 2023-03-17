@@ -1,0 +1,66 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+::-webkit-input-placeholder {
+    text-align: center;}
+.row{
+    margin: .25rem;
+}
+.row2{
+    display: flex;
+}
+.container{
+    border: red solid 1px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 25rem;
+
+}
+.container1{
+    background: black;
+    border: red solid 1px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 95vw;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 60vw;
+}
+.boite3{
+    align-self: center;
+}
+label{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 12rem;
+}
+.boutton{
+    margin: 1rem;
+}
+.erreur{
+    text-align: center;
+    margin: .25rem auto;
+    color: red;
+    border: red solid 1px;
+    border-radius: 5px;
+    width: 12rem;
+    font-size: small;
+}
+.visible{
+    display: none;
+}
+.boite{
+    display: flex;
+    margin: auto;
+
+
+}
+
